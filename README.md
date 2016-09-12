@@ -15,5 +15,8 @@ node test-selenium-webdriver.js
 
 ### Run sample 2
 
+cd /d/Doc/Dev/lib/selenium
+java -jar selenium-server-standalone-3.0.0-beta3.jar
+
 npm install webdriverio
 node test-webdriverio.js
