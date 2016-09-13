@@ -4,6 +4,7 @@ YUI().add('test-result-printer-for-selenium', function (Y) {
     var yconsole = new Y.Console();
 
     yconsole.on('entry', function (obj) {
+        console.log(obj.message);
         messages.push(obj.message);
     });
 

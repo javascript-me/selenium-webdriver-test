@@ -9,7 +9,7 @@ var options = {
 var client = webdriverio
     .remote(options)
     .init()
-    .url('file:///D:/Doc/Dev/javascript-me/selenium-webdriver-test/capture-unit-test-log-with-selenium.html')
+    .url('file:///D:/Doc/Dev/javascript-me/selenium-webdriver-test/capture-unit-test-results-with-selenium.html')
     .getTitle().then(function(title) {
         console.log('Title was: ' + title);
     })
@@ -20,5 +20,5 @@ var client = webdriverio
         console.log("testResults is: " + unescape(result));
     });
 
-// client.end();
+client.end();
 

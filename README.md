@@ -25,9 +25,13 @@ node run-webdriverio.js
 
 npm install -g wdio-mocha-framework
 
-# Use this command to generate a config file: wdio.conf.js. Choose default values... 
+##### Use this command to generate a config file: wdio.conf.js. Choose default values... 
 wdio config
 
-# Run test defined in: ./test/specs/mocha-selenium-test.js
+##### Run test defined in: ./test/specs/mocha-selenium-test.js
 wdio wdio.conf.js
 
+### Capture unit test results with selenium
+
+open capture-unit-test-results-with-selenium.html
+node capture-unit-test-results-with-selenium.js
