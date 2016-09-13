@@ -3,6 +3,8 @@ var webdriverio = require('webdriverio');
 var options = {
     desiredCapabilities: {
         browserName: 'firefox'
+        // TODO: not able to get text of "#testResults" in when using chrome.
+        //browserName: 'chrome'
     }
 };
 

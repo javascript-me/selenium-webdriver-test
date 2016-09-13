@@ -39,3 +39,23 @@ wdio wdio.conf.js
 open capture-unit-test-results-with-selenium.html
 
 node capture-unit-test-results-with-selenium.js
+
+### Want to use Chrome with Selenium? (see https://sites.google.com/a/chromium.org/chromedriver/getting-started)
+
+Down load driver in: 
+
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+http://chromedriver.storage.googleapis.com/index.html?path=2.24/
+
+Then define below options. However, there is an issue when using Chrome. 
+
+```
+var options = {
+    desiredCapabilities: {
+        //browserName: 'firefox'
+        // TODO: not able to get text of "#testResults" in when using chrome.
+        browserName: 'chrome'
+    }
+};
+```
