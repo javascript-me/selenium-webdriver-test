@@ -1,6 +1,6 @@
 # selenium-webdriver-test
 
-### Download geckodriver in below address, uzip it and add it to PATH environment variable. 
+### Want to connect to Firefox? Download geckodriver in below address, uzip it and add it to PATH environment variable.
 
 https://github.com/mozilla/geckodriver/releases
 
