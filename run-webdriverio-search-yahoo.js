@@ -15,6 +15,8 @@ webdriverio
 
     .getTitle().then(function(title) {
     console.log('Title was: ' + title);
-}).end();
+})
+    .saveScreenshot('yahoo.png')
+    .end();
 
 //TODO: try to get some text by id after the form is submitted...
