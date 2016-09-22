@@ -24,6 +24,8 @@ npm install webdriverio
 
 node run-webdriverio.js
 
+node run-webdriverio-search-yahoo.js
+
 ### Run "mocha selenium" sample
 
 npm install -g wdio-mocha-framework
