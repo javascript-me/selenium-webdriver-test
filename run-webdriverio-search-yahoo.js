@@ -2,7 +2,7 @@ var webdriverio = require('webdriverio');
 
 var options = {
     desiredCapabilities: {
-        browserName: 'firefox'
+        browserName: 'chrome'
     }
 };
 
@@ -12,7 +12,6 @@ webdriverio
     .url("http://search.yahoo.com")
     .setValue("#yschsp", "JavaScript")
     .submitForm("#sf")
-
     .getTitle().then(function(title) {
     console.log('Title was: ' + title);
 })
